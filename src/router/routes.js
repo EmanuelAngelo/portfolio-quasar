@@ -8,11 +8,11 @@ const routes = [
     ],
   },
 
-  // Rota de erro para páginas não encontradas
-  {
-    path: '/:catchAll(.*)*',
-    component: () => import('pages/ErrorNotFound.vue'),
-  },
+  // // Rota de erro para páginas não encontradas
+  // {
+  //   path: '/:catchAll(.*)*',
+  //   component: () => import('pages/ErrorNotFound.vue'),
+  // },
 ];
 
 export default routes;
